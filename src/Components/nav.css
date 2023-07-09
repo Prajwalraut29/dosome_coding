@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+   outline : none;
+   margin-left: 15px;
+   
+
+}
+
+.navBar{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    justify-content: space-around;
+   padding: 0%;
+   margin-bottom: 50px;
+ 
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+   
+}
+li{
+    list-style: none;
+   font-size: large; 
+
+} 
+button{
+    padding: 10px 23px;
+    margin: 20px;
+    background-color: rgb(216, 30, 30);
+    color: white;
+    border: none;
+
+}
+
+

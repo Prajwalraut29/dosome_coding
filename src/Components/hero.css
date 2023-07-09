@@ -1,0 +1,96 @@
+
+
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+.title{
+   font-size: 108px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: 102px;
+   color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.description{
+    
+width: 404px;
+height: 91px;
+flex-direction: column;
+color: var(--gray, #5A5959);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 10px;
+}
+
+.white-btn{
+    background-color: rgb(221, 221, 221);
+    border: 1px solid black;
+    color: rgb(61, 60, 60);
+
+}
+
+.sponsers {
+    margin: 10px;
+    
+
+}
+.sponsers img , p {
+    padding: 10px;
+}
+
+@media screen and (min-width: 780px ){
+    .hero{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .title{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .description{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 480px ){
+    .hero{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .title{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .description{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 380px ){
+    .hero{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .title{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .description{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
